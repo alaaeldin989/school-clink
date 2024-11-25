@@ -1,2 +1,2 @@
 site:  https://alaaeldin989.github.io/school-clink/
-netlify: school-clink.netlify.app
+netlify: https://school-clink.netlify.app
