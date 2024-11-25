@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header-home{
+    background: url(../img/download.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+.header-home img{
+    width: 150px;
+}
+
+.log-btn{
+    background: #ea7e6e;
+}
+
+.header-home h3{
+    background: #62a58d;
+    line-height: 2;
+    padding: 1rem;
+    font-size: 2.2rem;
+    font-family: monospace;
+}
+
+
+
+@media only screen and (max-width: 576px) {
+    .header-home h3{
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .nav-item li{
+        display: none;
+    }
+    
+}
+
+/* school section  */
+.school-home hr{
+    background: #d87a16;
+    width: 200px;
+    height: 5px;
+}
+/* school section  */
+
+/* Touch section  */
+.touch-home{
+    background: url(../img/Path\ 62.png) , url(../img/i-love-my-job-so-much_329181-2178.png);
+    background-size: cover;
+}
+
+.touch-home p{
+    font-size: 0.8rem;
+}
+
+.touch-home img{
+height: 26vh;
+}
+
+.touch-home h3{
+    font-size: 1rem;
+    color: #63b2c0;
+}
+/* Touch section  */
+
+
+/* Footer  */
+footer{
+    background: #0f7b65;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+}
+
+footer h4{
+    color: #e28872;
+}
+/* Footer  */
